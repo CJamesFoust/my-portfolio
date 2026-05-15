@@ -14,9 +14,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #192027;
     --foreground: #ededed;
+    --hover: #44f6e8;
   }
+}
+
+@media (hover: hover) {
+    .hover\:text-background:hover {
+        color: var(--hover);
+    }
 }
 
 body {
