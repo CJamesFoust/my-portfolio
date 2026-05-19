@@ -24,14 +24,14 @@ const projects = [
     ]
   },
   {
-    title: "Full-Stack Employee Portal",
-    description: "A comprehensive management system built with Python and Flask, designed to handle employee data, department assignments, and administrative workflows.",
-    tech: ["Python", "Flask", "MySQL", "Jinja2", "HTML/CSS"],
-    link: "https://github.com/CJamesFoust/Employee-Portal",
+    title: "Real-Time Reactive Sandbox",
+    description: "An advanced crypto portfolio dashboard engineered to showcase fine-grained reactivity, memoized derived states, and strategic performance isolation using modern Angular paradigms.",
+    tech: ["Angular", "RxJS", "Signals", "@defer"],
+    link: "https://angular-demonstration.vercel.app/",
     features: [
-      "RESTful routing for CRUD operations",
-      "Relational database management",
-      "Dynamic template rendering"
+      "RxJS toSignal() state bridging",
+      "computed() memoized portfolio math",
+      "Lazy asset rendering via @defer blocks"
     ]
   }
 ];
